@@ -3,11 +3,13 @@
 ## This script will scrape a website for properties listed for sale.
 
 
-The script final_century21.ipynb:
+Run the file "final_century21.ipynb" which:
 1. web scrapes century21.com and gets info from multiple pages from the site
 2. python performs search query on location 
 3. stores data in tbl (pandas df)
    - Gets data wtih 1 run of the program. Saves output in csv file (with columns: address, area, beds, full baths, locality, lot size, price)
+<br>
+
 <br>
 
 HTML elements are the key to web scraping. 
